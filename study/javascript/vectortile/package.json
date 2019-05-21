@@ -1,0 +1,13 @@
+{
+    "name": "mapbox-vector-tiles",
+    "dependencies": {
+      "ol": "6.0.0-beta.8"
+    },
+    "devDependencies": {
+      "parcel": "1.11.0"
+    },
+    "scripts": {
+      "start": "parcel index.html",
+      "build": "parcel build --experimental-scope-hoisting --public-url . index.html"
+    }
+  }
