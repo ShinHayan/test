@@ -13,24 +13,33 @@
     </style>
   </head>
   <script src="js/jsTutorial.js"></script>
+  <script src="js/jsFunction.js"></script>
   <body >
     <H2>Hello white, don't worry , be happy!</H2>
     <H3>let's exercise javascript syntax</H3>
     
-    <ul style="list-style-type:none"><li>
-    <button type="button" onclick="msg('msg','test')">click this button</button>
-    <button id="demo" type="button" onclick="changeLabel('demo')">changeLabel</button>
-    <button id="celsius" type="button" onclick="toCelsiusMsg('msg',77)">77F to celsius</button>
-    <button id="fullName" type="button" onclick="getFullName('msg')">fullName</button>
+    <button onclick="clearMsg('msg')">clearMsg</button>
+    <ul style="list-style-type:none">
+      <li>
+      <button type="button" onclick="msg('msg','test')">click this button</button>
+      <button id="demo" type="button" onclick="changeLabel('demo')">changeLabel</button>
+      <button id="celsius" type="button" onclick="toCelsiusMsg('msg',77)">77F to celsius</button>
+      <button id="fullName" type="button" onclick="getFullName('msg')">fullName</button>
     </li>
     <li>
-    <button onclick="getDate('msg')">the time is?</button>
-    <button onclick="baseTest('msg',32)">base test</button>
-    <button onclick="getArray('msg',2)">get array</button>
-    <button onclick="joinArrayString('msg')">joinArrayString</button>
-    <button onclick="sortTest('msg')">sort</button>
+      <button onclick="getDate('msg')">the time is?</button>
+      <button onclick="baseTest('msg',32)">base test</button>
+      <button onclick="getArray('msg',2)">get array</button>
+      <button onclick="joinArrayString('msg')">joinArrayString</button>
+      <button onclick="sortTest('msg')">sort</button>
+    </li>
+    <li>
+      <button onclick="arrayTest('msg')">Array.every?</button>
+      <button onclick="mathTest('msg')">Math.round</button>
+      <button onclick="testObject('msg')">testObject</button>
+      <button onclick="testFunction('msg')">testFunction</button>
     </li></ul>
-    
+  
     <p id="msg"></p><br>
   
     <h3>Tag exercise</h3>
