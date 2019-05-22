@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>exercise1</title>
+    <style>
+      body {background-color:beige;font-size: 15px}
+      h2   {color:black;}
+      h3   {color:crimson;}
+      button {color:blanchedalmond; font-size:larger ;background-color:cadetblue;}
+      figure {font: 1em sans-serif; font-weight: bold; color:blue}
+
+    </style>
+  </head>
+  <script src="js/jsTutorial.js"></script>
+  <body >
+    <H2>Hello white, don't worry , be happy!</H2>
+    <H3>let's exercise javascript syntax</H3>
+    
+    <ul style="list-style-type:none"><li>
+    <button type="button" onclick="msg('msg','test')">click this button</button>
+    <button id="demo" type="button" onclick="changeLabel('demo')">changeLabel</button>
+    <button id="celsius" type="button" onclick="toCelsiusMsg('msg',77)">77F to celsius</button>
+    <button id="fullName" type="button" onclick="getFullName('msg')">fullName</button>
+    </li>
+    <li>
+    <button onclick="getDate('msg')">the time is?</button>
+    <button onclick="baseTest('msg',32)">base test</button>
+    <button onclick="getArray('msg',2)">get array</button>
+    <button onclick="joinArrayString('msg')">joinArrayString</button>
+    <button onclick="sortTest('msg')">sort</button>
+    </li></ul>
+    
+    <p id="msg"></p><br>
+  
+    <h3>Tag exercise</h3>
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
+
+    <ul>
+        <li>Coffee</li>
+        <li>Tea
+          <ul>
+            <li>Black tea</li>
+            <li>Green tea</li>
+          </ul>
+        </li>
+        <li>Milk</li>
+      </ul>
+
+     <figure>
+       <img src="img/mago3d_product.png" alt="mago3d" style="width:100%">
+       <figcaption>fig1.mago3d products</figcaption>
+     </figure>
+
+  </body>
+</html>
